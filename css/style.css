@@ -10,10 +10,10 @@
 }
 nav {
 overflow: hidden;
-position: absolute;
+position: fixed;
 width: 100%;
 opacity: 0.9;
-background-color: rgb(10, 39, 1);
+background-color: #a2a3a7;
 }
 header li {
     float: right;
@@ -29,4 +29,50 @@ header li a{
 .menu :hover{
     color: orange;
     text-decoration: underline;
+}
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script:400,700);
+.contactus {
+  margin: 100px;
+  padding: 0;
+  background-color: #a2a3a7;
+  color: orange;
+  text-align: center;
+  font-family: monospace;
+}
+h1 {
+  font-size: 2rem;
+  font-family: 'Dancing Script';
+}
+textarea, input, button {
+  line-height: 1.5rem;
+  border: 0;
+  outline: none;
+  font-family: inherit;
+  appearance: none;
+  
+}
+textarea, input {
+  color: black;
+  background-color: transparent;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='24'><rect fill='rgb(229, 225, 187)' x='0' y='23' width='10' height='1'/></svg>");
+  font-weight: bold;
+  font-size: large;
+}
+textarea {
+ width: 100%;
+ height: 8rem;
+ resize: none;
+}
+button:hover{
+background-color: orange;
+}
+button{
+  font-weight: bold; 
+  font-size: 20px;
+  padding: 9px 9px;
+  border-radius: 100px;
+}
+.title{
+text-align: center;
+color: #172e1e;
 }
