@@ -12,13 +12,15 @@
 				<ul class="menu">
 					<img class="logo" src="images/logozellige.png"></img>
 					<li><a href="#contact">Contact</a></li>
-					<li><a href="#catalogue">Catalogue</a></li>
-					<!-- <li><a href="#catalogue">carrelage</a></li>
-					<li><a href="#catalogue">marbre</a></li>
-					<li><a href="#catalogue">cuisine</a></li>
-					<li><a href="#catalogue">salle de bain</a></li> -->
-					<li><a href="#catalogue">A propos</a></li>
-					<li><a href="#catalogue">Acceuil</a></li>
+					<li>
+						<label for="Catalogue">Catalogue</label>
+						<select >
+							<option value="marbre">Marbre</option>
+					  		<option value="carrelage">Carrelage</option>
+						</select>
+					</li>
+					<li><a href="#a propos">A propos</a></li>
+					<li><a href="#acceuil">Acceuil</a></li>
 				</ul>
 			</nav>
 		</header>
@@ -37,35 +39,60 @@
 				<source src="images/zellige.mp4" type="video/mp4">
 			</video>
 		</div>
+		<section class="section_form">
+            <div class="row">
+                <h2>Contact</h2>
+            </div>
+            <div class="row">
+                <form method="post" action="#" class="contact-form">
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="name">Nom et prénom</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input id="name" type="text" placeholder="Votre nom et prénom" required>
+                        </div>
+                    </div>                
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="email" id="email" placeholder="votre Email" required>
+                        </div>
+                    </div>            
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="opinion">Comment avez-vous trouvé notre site ?</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <select id="opinion" placeholder="chose one opinion"> 
+                                <option value="very good">Very Good</option>
+                                <option value="good">Good</option>
+                                <option value="not good">Not good</option>
+                            </select>
+                        </div>
+                    </div>                
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>Message</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <textarea placeholder="Votre message..."></textarea>
+                        </div>
+                    </div> 
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>&nbsp;</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="submit" value="Send it!">
+                        </div>                      
+                    </div>
+                </form>
+            </div>
+        </section>
 		<footer>
-			<div>
-				<div class="contactus">
-					<article class="letter">
-						<div class="side">
-							<h1>Contact</h1>
-						</div>
-						<div class="side">
-							<p>
-								<textarea placeholder=" Message..."></textarea>
-							</p>
-							<p>
-								<input type="nom" placeholder="Votre nom" >
-							</p>
-							<p>
-								<input type="prenom" placeholder="Votre prénom" >
-							</p>
-							<p>
-								<input type="email" placeholder="Votre email" >
-							</p>
-						<!-- <br><br>
-						<br><br> -->
-							<p>
-								<button id="sendLetter">Envoyer</button>
-							</p>
-						</div>
-					</article>
-				</div>
-			</div>
 			<div>
 			<h2> Horaire d'ouverture</h2>
 			<p> Lundi 09:00-18:00</p>
