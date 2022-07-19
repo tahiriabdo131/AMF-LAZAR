@@ -5,7 +5,6 @@
 .menu a{
     color: white;
     text-decoration: none;
-    
     font-size: larger;
 }
 nav {
@@ -27,52 +26,76 @@ header li a{
     padding: 18px 16px;
 }
 .menu :hover{
-    color: orange;
+    color: #f89821;
     text-decoration: underline;
-}
-@import url(https://fonts.googleapis.com/css?family=Dancing+Script:400,700);
-.contactus {
-  margin: 100px;
-  padding: 0;
-  background-color: #a2a3a7;
-  color: orange;
-  text-align: center;
-  font-family: monospace;
-}
-h1 {
-  font-size: 2rem;
-  font-family: 'Dancing Script';
-}
-textarea, input, button {
-  line-height: 1.5rem;
-  border: 0;
-  outline: none;
-  font-family: inherit;
-  appearance: none;
-  
-}
-textarea, input {
-  color: black;
-  background-color: transparent;
-  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='24'><rect fill='rgb(229, 225, 187)' x='0' y='23' width='10' height='1'/></svg>");
-  font-weight: bold;
-  font-size: large;
-}
-textarea {
- width: 100%;
- height: 8rem;
- resize: none;
-}
-button:hover{
-background-color: orange;
-}
-button{
-  font-weight: bold; 
-  font-size: 20px;
-  padding: 9px 9px;
-  border-radius: 100px;
 }
 .title{
 text-align: center;
 color: #172e1e;
+text-decoration:overline #f89821 ;
+}
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 120px;
+}
+h2{
+  font-family: 'Brush Script MT', cursive;
+ font-size: xx-large;
+}
+.section_form{
+  background-color:#f89821;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}   
+.fa-instagram{
+  background: #c93fbd;
+  color: white;
+}
+.connaissance{
+  font-style: italic;
+  font-family: 'Times New Roman', Times, sans-serif;
+   font-size: x-large;
+}.row {
+text-align: center;
+}
+.social_links{
+  text-align: end;
+  display: flex;
+  text-decoration: none;
+}
+.amf:hover{
+  color: #f89821;
+  font-weight: bold;
+}
+.map-responsive{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+.map-responsive iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+
 }
