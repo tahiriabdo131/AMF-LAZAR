@@ -32,7 +32,7 @@ header li a{
 .title{
 text-align: center;
 color: #172e1e;
-text-decoration:overline #f89821 ;
+text-decoration:underline #f89821 ;
 }
 img {
   border: 1px solid #ddd;
@@ -45,7 +45,7 @@ h2{
  font-size: xx-large;
 }
 .section_form{
-  background-color:#f89821;
+  background-color:#a2a3a7;;
 }
 .fa {
   padding: 20px;
@@ -98,4 +98,10 @@ text-align: center;
   width:100%;
   position:absolute;
 
+}
+.cinematique{
+  width: 100%;
+}
+.button:hover{
+background-color: #f89821;
 }
