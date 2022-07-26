@@ -349,3 +349,60 @@ input[type="submit"]:hover {
 *:focus {
     outline: none;
 }
+.material-icons{
+ color: #3b5998;
+ 
+}
+.glyphicon-thumbs-up{
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+    background: #fff;
+    border-radius: 50%;
+    transition: 0.5s;
+    color: #cf6d17;
+    font-size: 40px;
+    overflow: hidden;
+    padding-top: 20px;
+    box-shadow: 0px 0 25px rgb(0 0 0 / 15%);
+}
+.glyphicon-user{
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+    background: #fff;
+    border-radius: 50%;
+    transition: 0.5s;
+    color: #cf6d17;
+    font-size: 40px;
+    overflow: hidden;
+    padding-top: 20px;
+    box-shadow: 0px 0 25px rgb(0 0 0 / 15%); 
+}
+.material-icons{
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+    background: #fff;
+    border-radius: 50%;
+    transition: 0.5s;
+    color: #cf6d17;
+    font-size: 40px;
+    overflow: hidden;
+    padding-top: 20px;
+    box-shadow: 0px 0 25px rgb(0 0 0 / 15%);
+}
+.glyphicon-user:hover{
+    box-shadow: 0px 0 25px #cf6d17;
+}
+.material-icons:hover{
+    box-shadow: 0px 0 25px #cf6d17;
+}
+.glyphicon-thumbs-up:hover{
+    box-shadow: 0px 0 25px #cf6d17;
+}
+
+.titre{
+font-family: 'Times New Roman', Times, serif;
+font-size: x-large;
+}
