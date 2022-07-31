@@ -3,18 +3,38 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title> AMF LAZAR S.A.R.L</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="grid.css">
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
     <link rel="stylesheet" type="text/css" href="css/ionicons.min.css">
-<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./w3css/4/w3.css">
+
+    <style>
+        /* #bg {
+            position: fixed;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+        }
+        
+        #bg img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+            min-width: 50%;
+            min-height: 50%;
+        } */
+    </style>
 </head>
 
 <body>
@@ -41,8 +61,9 @@
         </nav>
     </header>
     <br><br>
-    <br><br>
-    <br><br>
+    <!-- <br><br>
+    <br><br> -->
+    <br>
     <br>
     <br>
     <!-- Header end -->
@@ -53,7 +74,7 @@
     <br>
     <br>
 -->
-    <div>
+    <!-- <div>
         <h1 class="title">AMF LAZAR S.A.R.L</h1>
         <br>
         <br><br>
@@ -62,10 +83,20 @@
         <source src="images/zellige.mp4" type="video/mp4">
         Error Message
     </video>
+    </div> -->
+
+    <div class="section_slider">
+        <div class="w3-content w3-display-container">
+            <img class="mySlides" src="./w3css/slider-2.jpg" style="width: 100%;">
+            <img class="mySlides" src="./w3css/slider1.jpeg" style="width: 100%;">
+            <img class="mySlides" src="./w3css/slider-3.jpeg" style="width: 100%;">
+            <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+        </div>
     </div>
 
-
     <section class="section_features">
+
         <div class="row" id="abous_us">
             <h2>Qui sommes &mdash; nous ?</h2>
             <p class="lang_copy">
@@ -116,37 +147,37 @@
     </footer> -->
     <section class="service_section">
         <div class="row" id="plan_link">
-           <h2>Pourquoi choisir AMF LAZAR S.A.R.L ? </h2>
-       </div>
-       <div class="row">
-           <div class="col span-1-of-3">
-                <div> 
+            <h2>Pourquoi choisir AMF LAZAR S.A.R.L ? </h2>
+        </div>
+        <div class="row">
+            <div class="col span-1-of-3">
+                <div>
                     <i class="glyphicon glyphicon-thumbs-up"></i>
                     <h4 class="titre"> Bon service</h4>
                 </div>
-           </div>
-           <!-- 2 -->
-           <div class="col span-1-of-3">
-               <div class="div_plan">
-                   <div>
+            </div>
+            <!-- 2 -->
+            <div class="col span-1-of-3">
+                <div class="div_plan">
+                    <div>
                         <span class="glyphicon glyphicon-user"></span>
-                       <h4 class="titre">le service 24/7</h4>
-                   </div>
-               </div>
-           </div>  
-                   
-           <!-- 3 -->
-           <div class="col span-1-of-3">
-               <div class="div_plan">
-                   <div>
-                    <i class="material-icons">format_list_numbered</i>
-                       <h4 class="titre">Large choix</h4>
-                   </div>
-                   
-               </div>
-           </div>    
-       </div>
-   </section>
+                        <h4 class="titre">le service 24/7</h4>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 3 -->
+            <div class="col span-1-of-3">
+                <div class="div_plan">
+                    <div>
+                        <span class="glyphicon glyphicon-list"></span>
+                        <h4 class="titre">Large choix</h4>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
 
     <section class="section_form">
         <div class="row">
@@ -199,29 +230,52 @@
     </section>
 
     <footer>
-        <div class="col span-1-of-2 footer_elements">
-            <ul class="footer_nav">
-                <li><a href="#abous_us">à propos </a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Presse</a></li>
-                <li><a href="#">IOS App</a></li>
-                <li><a href="#">Android App</a></li>
-            </ul>
+        <div class="col span-1-of-2 footer_elements" style="color:white;text-align: center;">
+            <div class="horaires">
+                <h5>Les horaires d'overtures :</h5>
+                <img src="./images/HR.png" style="width: 50%;height:50%" />
+            </div>
+
+            <br>
+            <br>
+            <div style="text-align: center">
+                <ul class="social_links">
+                    <li><a href="#"><i class="ion-social-facebook"></i></a></li>
+                    <!-- <li><a href="#"><i class="ion-social-googleplus"></i></a></li> -->
+                    <li><a href="#"><i class="ion-social-instagram"></i></a></li>
+                    <li><a href="#"><i class="ion-social-youtube"></i></a></li>
+                </ul>
+            </div>
         </div>
-        <div class="col span-1-of-2 footer_elements">
-            <ul class="social_links">
-                <li><a href="#"><i class="ion-social-facebook"></i></a></li>
-                <li><a href="#"><i class="ion-social-twitter"></i></a></li>
-                <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
-                <li><a href="#"><i class="ion-social-instagram"></i></a></li>
-            </ul>
+        <div class="col span-1-of-2 footer_elements" style="color:white;">
+            <p style="text-align: center;">Localisation :</p>
+            <div class="google_maps" style="padding-right: 5px;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3323.7443131886375!2d-7.607691584944936!3d33.58598734960383!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda7cd6fc62cb5f3%3A0x78dc0c20faf4b0d4!2sr%C3%A9sidence%20AFA!5e0!3m2!1sen!2sma!4v1659205426926!5m2!1sen!2sma"
+                    width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <br>
+                <br>
+                <div style="text-align: center;">
+                    <p>Contact :</p>
+                    <p>- Tèl .: +212 522 236 868</p>
+                    <p>- Gsm .: +212 666 197 181</p>
+                    <p>- Gsm .: +212 603 009 025</p>
+                    <p>- Email .: info@MallZellij.com</p>
+                </div>
+                <br>
+                <div style="text-align: center;">
+                    <p>Copyright &copy; 2022 by AMF LAZAR S.A.R.L.</p>
+                    <p> All rights reserved</p>
+                </div>
+            </div>
         </div>
         <div class="row copyRight">
-            <p>Copyright &copy; 2022 by AMF LAZAR S.A.R.L.</p>
-            <p> All rights reserved</p>
+            <!-- <p>Copyright &copy; 2022 by AMF LAZAR S.A.R.L.</p>
+            <p> All rights reserved</p> -->
         </div>
     </footer>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="style.js"></script>
 </body>
 
 </html>
