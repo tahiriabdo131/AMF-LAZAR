@@ -1,0 +1,90 @@
+@media screen and (max-width: 1200px) {
+    body {
+        font-size: 85%;
+    }
+    .hero_text_box h1 {
+        margin-top: 5%;
+        font-size: 100%;
+        padding-bottom: 3%;
+    }
+    .footer_elements li {
+        padding-bottom: 5%;
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    body {
+        font-size: 80%;
+    }
+    nav ul {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    body {
+        font-size: 58%;
+    }
+    nav ul {
+        display: none;
+    }
+    .col {
+        width: 100%;
+    }
+    .temoingage_section img {
+        width: 16%;
+        margin-bottom: 40px;
+    }
+    .contact-form input {
+        margin-bottom: 4%;
+    }
+    .hero_text_box a {
+        margin-bottom: 10px!important;
+    }
+    h2:after {
+        margin-top: 10px;
+    }
+    .copyRight {
+        margin-bottom: 1%;
+    }
+    .temoingage_section h2 {
+        font-size: 150%;
+    }
+    .temoingage_section p {
+        line-height: 15px;
+    }
+    .temoingage_section {
+        margin-top: -30px;
+        padding-top: 10px;
+    }
+    work_steps {
+        padding: 3px 0;
+    }
+    .section_form {
+        padding-top: 20px;
+    }
+    .contact-form {
+        margin-top: -15px;
+    }
+    .newsletter {
+        margin-top: 10px;
+    }
+    .checkbox {
+        margin-top: -7px;
+    }
+    .section_form h2 {
+        font-size: 160%;
+    }
+    .div_paragraphe:before {
+        top: -25px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    body {
+        font-size: 55%;
+    }
+    nav ul {
+        display: none;
+    }
+}
