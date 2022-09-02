@@ -405,6 +405,10 @@
         color: #ff0000;
     }
     
+    .ion-social-whatsapp:hover {
+        color: #0cb264
+    }
+    
     .wok_steps img {
         width: 200px;
         height: 70;
@@ -462,4 +466,13 @@
     .name_company {
         color: #e67e22;
         font-weight: bold
+    }
+    
+    .footer_right_section {
+        text-align: center;
+        color: white
+    }
+    
+    .google_maps {
+        margin-top: 7px;
     }
