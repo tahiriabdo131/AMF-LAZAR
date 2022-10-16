@@ -401,12 +401,16 @@
         color: #fe0190;
     }
     
-    .ion-social-youtube:hover {
-        color: #ff0000;
-    }
-    
     .ion-social-whatsapp:hover {
         color: #0cb264
+    }
+    
+    .ion-social-linkedin:hover {
+        color: #006699;
+    }
+    
+    .ion-social-youtube:hover {
+        color: #ff0000;
     }
     
     .wok_steps img {
