@@ -17,16 +17,8 @@
         /*this is very important to don't show the white in the right side of the screen*/
         overflow-x: hidden;
     }
-    /*
-@media only screen and (max-width: 1025px) {
-  html {
-    width: 100%;
-  }
-}
-*/
     
     .container {
-        /*max-width: 1140px;*/
         margin: 0 auto 0 auto;
         background-color: yellow;
     }
@@ -43,11 +35,12 @@
     header h1 {
         margin: 0;
         color: #fff;
-        font-size: 180%;
+        font-size: 149%;
         /* text-transform: uppercase; */
         font-weight: 300;
         letter-spacing: 1px;
         word-spacing: 4px;
+        margin-bottom: 10px;
     }
     /*
 .hero_text_box {
@@ -96,7 +89,7 @@
     .main_nav {
         float: right;
         list-style: none;
-        margin-top: 60px;
+        margin-top: -40px;
         padding-right: 60px;
     }
     
@@ -227,7 +220,6 @@
     }
     
     .meal_photo img:hover {
-        /* nice effect */
         transform: scale(1.4);
     }
     
@@ -241,7 +233,6 @@
         background-attachment: fixed;
         color: white;
         margin-top: 20px;
-        /* margin-bottom: 30px; */
     }
     
     .temoingage_section h2 {
@@ -345,7 +336,6 @@
     
     .social_links {
         list-style: none;
-        /* float: right; */
     }
     
     .social_links li,
@@ -368,7 +358,7 @@
     .footer_nav li a:active {
         color: #ddd;
         padding-bottom: 5px;
-        border-bottom: 5px solid #e67e22;
+        border-bottom: 7px solid #e67e22;
     }
     
     .social_links li a:link,
@@ -469,9 +459,10 @@
     
     .name_company {
         color: #e67e22;
-        font-weight: bold
+        font-weight: bold;
+        border-bottom: 4px solid #e67e22;
     }
-    
+
     .footer_right_section {
         text-align: center;
         color: white
