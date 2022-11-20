@@ -325,13 +325,13 @@ footer {
 }
 
 .social {
-  margin-top: 3.5rem;
+  margin-bottom: 1rem;
   text-align: center;
 }
 
 .social img {
-  margin-right: 2rem;
-  width: 2.5rem;
+  margin-right: 1rem;
+  width: 2rem;
   transition: 0.4s;
 }
 
