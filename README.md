@@ -1,4 +1,5 @@
 Link: https://amf-lazar.com/
+lINK 2 (If the official link doesn't work, please use this backup link instead) : https://tahiriabdo131.github.io/AMF-LAZAR/
 
 Responsive showcase website for a company of tiles and marbles. I implemented it using HTML, CSS
 ![image](https://user-images.githubusercontent.com/56969009/198846464-c033655b-3063-4e9c-9cd3-ddecc4dd1823.png)
